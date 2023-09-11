@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="mt-10 ml-10">
+      <a href="index.html"><button class="btn btn-outline">Go Back</button></a>
+    </header>
+    <main class="my-40">
+      <div class="flex justify-center">
+        <div class="join join-vertical w-9/12">
+          <div class="collapse collapse-arrow join-item border border-base-300">
+            <input type="radio" name="my-accordion-4" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+              Discuss the scope of
+              <span class="bg-slate-200 px-2">var</span>,
+              <span class="bg-slate-200 px-2">let</span>, and
+              <span class="bg-slate-200 px-2">const</span>
+            </div>
+            <div class="collapse-content">
+              <p>
+                Variables declared with var are in the function scope. Variables
+                declared as let and const are in the block scope.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow join-item border border-base-300">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium">
+              Tell us the use cases of
+              <span class="bg-slate-200 px-2">null</span> and
+              <span class="bg-slate-200 px-2">undefined</span>
+            </div>
+            <div class="collapse-content">
+              <p>
+                Undefined means the variable has been declared, but its value
+                has not been assigned. Null means an empty value or a blank
+                value.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow join-item border border-base-300">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium">
+              What do you mean by REST API?
+            </div>
+            <div class="collapse-content">
+              <p>
+                What is REST API and how it works? A RESTful API is an
+                architectural style for an application program interface (API)
+                that uses HTTP requests to access and use data. That data can be
+                used to GET, PUT, POST and DELETE data types, which refers to
+                the reading, updating, creating and deleting of operations
+                concerning resources.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
